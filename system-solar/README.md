@@ -33,7 +33,7 @@ Consulte a seção sobre [implantação](https://facebook.github.io/create-react
 
 **Nota: esta é uma operação unidirecional. Depois de 'ejetar', você não pode voltar!**
 
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, você pode `ejetar` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
+Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, você pode `eject` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
 
 Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
 

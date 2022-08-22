@@ -1,0 +1,129 @@
+:root {
+  --ref-mercurio:80px
+  --ref-venus:190px
+  --ref-terra:200px
+  --ref-marte:106px
+  --ref-jupiter:200px
+  --ref-saturno:200px
+  --ref-urano:200px
+  --ref-neturno:200px
+}
+/* mercurio = 0.4 */
+/* venus = 0.95 */
+/* terra = 1.0 */
+/* marte = 0.53 */
+/* jupiter = 11.24 */
+/* saturno = 9.45 */
+/* urano = 4.0 */
+/* neturno = 3.82*/
+
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-size: x-large;
+}
+
+.divplanetas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 40px 10%;
+  justify-content : center;
+}
+
+.conjp {
+  display: flex;
+  border-color: rgb(180, 15, 15);
+  flex-direction: column;
+}
+
+.conjp p{
+  margin: 0;
+}
+
+
+h2 {
+  text-align: center;
+  border-color: grey;
+  border: 1px solid;
+  padding: 15px;
+  margin: 0px 10%;
+  border-radius: 10px;
+  background-color: rgba(6, 6, 6, 0.7)
+}
+
+.imagem_planeta.Mercúrio{
+  width: 40px;
+}
+
+.imagem_planeta.Vênus {
+  width: 95px;
+}
+
+.imagem_planeta.Terra {
+  width: 100px;
+}
+
+.imagem_planeta.Marte {
+  width: 53px;
+}
+
+.imagem_planeta.Júpiter {
+  width: 253px;
+}
+
+.imagem_planeta.Saturno {
+  width: 213px;
+}
+
+.imagem_planeta.Urano {
+  width: 150px;
+}
+
+.imagem_planeta.Netuno {
+  width: 125px;
+}
+
+.divmissoes {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0px 9%;
+  gap: 20px;
+}
+
+
+.mscard {
+  margin: 20px;
+  border-color: grey;
+  border: 1px solid;
+  border-radius: 10px;
+  gap: 20px;
+  width: 310px;
+  height: 220px;
+  /* padding: 30px; */
+
+  /* width: 25%; */
+}
+
+.missionName {
+  font-weight: bolder;
+  font-size: 20px;
+  /* color: red; */
+  /* text-align: center; */
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  border-color: gray;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.mscard p {
+  padding-left: 10px;
+  /* margin: 10px; */
+  padding: -10px;
+}

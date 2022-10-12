@@ -1,0 +1,71 @@
+.cabecalho {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+}
+
+.h3header {
+  margin-right: 15px;
+}
+
+.formWallet {
+  align-items: center;
+  background-color: rgb(19, 5, 62);
+  color: white;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+input {
+  margin-left: 10px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+select {
+  margin-left: 10px;
+}
+
+table , th , td {
+  border: 1px solid;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  font-size: 12px;
+  width: 100%;
+}
+
+.loggin-page , .dvt {
+  align-items: center;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.dvt {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px rgb(92, 91, 91);
+  height: 65%;
+  width: 50%;
+}
+
+img {
+  width: 40%;
+}
+
+.loginInput {
+  margin-top: -10%;
+}

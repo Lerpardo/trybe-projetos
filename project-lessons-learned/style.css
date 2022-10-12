@@ -1,0 +1,44 @@
+/* GERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* CABEÇALHO */
+#cabecalho {
+  top: 0;
+}
+
+/* CORPO */
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+article , aside {
+  display: inline-block;
+}
+
+.lado-direito {
+  color: green;
+  text-align: right;
+  position: absolute;
+  top: 300px;
+  margin-left: 15px;
+}
+
+ul , ol {
+  display: inline-block;
+}
+
+td {
+  padding-right: 9px;
+}
+
+/* RODAPÉ */
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
